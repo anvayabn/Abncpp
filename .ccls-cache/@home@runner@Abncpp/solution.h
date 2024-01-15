@@ -5,7 +5,7 @@
 #include <vector>
 
 // #define DEBUG 1
-#define DEBUG_PRINT 1
+#define DEBUG_PRINT 0
 using namespace std;
 
 class Solution {
