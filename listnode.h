@@ -20,4 +20,7 @@ public:
     head of the linked list */
   void reverse_node(Node *head);
   void print_node(Node *nod);
+  Node *get_middle(Node *nod);
+
+  void merge_twoLists(Node *node1, Node *node2);
 };
