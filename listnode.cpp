@@ -74,7 +74,7 @@ void ListNode::merge_twoLists(Node *node1, Node *node2) {
       dummy->next = node1;
       node1 = node1->next;
     } else {
-      dummy->next = node1;
+      dummy->next = node2;
       node2 = node2->next;
     }
     dummy = dummy->next;
